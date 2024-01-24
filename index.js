@@ -6,6 +6,7 @@ const productDetail = document.querySelector(".product-detail");
 const mainContainer = document.querySelector(".main-container");
 const cushionImage = document.querySelectorAll(".cushion-image");
 const cushionName = document.querySelector(".product-name");
+const arrowUp = document.querySelector(".arrow-up");
 
 const cushionList = [
   {
@@ -49,6 +50,7 @@ const handleBodyClick = (e) => {
 };
 
 const handleCardClick = (e) => {
+  mainContainer.style.overflow = "hidden";
   const selectedCushion = e.srcElement.parentElement.innerText.split(" ")[0];
   for (let i = 0; i < cushionList.length; i++) {
     if (cushionList[i].name.split(" ")[0] === selectedCushion) {
@@ -57,17 +59,25 @@ const handleCardClick = (e) => {
     }
   }
   productDetail.classList.add("card-visible");
-  mainContainer.style.background = "rgba(47.81, 47.81, 47.81, 0.60)";
-  mainContainer.style.filter = "blur(10px)";
+  mainContainer.classList.add("container");
+  if (typeof window != "undefined" && window.document) {
+    document.body.style.overflow = "hidden";
+  }
 };
 
 const handleCrossClick = () => {
   productDetail.classList.remove("card-visible");
-  mainContainer.style.background = "";
-  mainContainer.style.filter = "";
+  mainContainer.classList.remove("container");
+  document.body.style.overflow = "unset";
+};
+
+const handleArrowClick = () => {
+  window.scroll({ top: 0, behavior: "smooth" });
 };
 
 cart.addEventListener("click", () => handleCartClick());
 window.addEventListener("click", (e) => handleBodyClick(e));
 cards.addEventListener("click", (e) => handleCardClick(e));
 cross.addEventListener("click", () => handleCrossClick());
+arrowUp.addEventListener("click", () => handleArrowClick());
+
