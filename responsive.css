@@ -1,0 +1,357 @@
+@media(max-width: 1200px) {
+  .header {
+    height: 650px;
+  }
+  .header-content {
+    max-width: 900px;
+  }
+  .cushion {
+    width: 550px;
+    height: 400px;
+    left: 55px;
+  }
+  .buynow-rect {
+    width: 270px;
+    height: 270px;
+    right: 55px
+  }
+  .new, .buy {
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 32px;
+    margin: 10px 0 10px;
+    line-height: 45px;
+  }
+  .arrow {
+    top: 92px;
+  }
+  .beginnings, .career {
+    gap: 20px;
+  }
+  .description-text {
+    width: 300px;
+  }
+  .description-img {
+    width: 500px;
+    height: 300px;
+  }
+  .description-img > img {
+    width: 470px;
+    height: 270px;
+  }
+  .description-text div:last-of-type {
+    font-size: 18px;
+  }
+  .form {
+    gap: 150px;
+  }
+  .input {
+    width: 218px;
+    height: 50px;
+  }
+  .input-message {
+    width: 520px;
+  }
+  footer {
+    padding: 30px 50px 30px 50px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .navbar {
+    height: 80px;
+    padding: 25px 55px;
+  }
+  .logo {
+    width: 70px;
+    height: 40px;
+  }
+  .tabs {
+    width: 400px;
+  }
+  .active-state {
+    top: 37px;
+    width: 80px;
+  }
+  .home-tab,
+  .about-tab,
+  .product-tab,
+  .contact-tab {
+    font-size: 18px;
+  }
+  .triangle {
+    right: 60px;
+  }
+  .arrow-left,
+  .arrow-right {
+    width: 41px;
+    height: 35px;
+  }
+  .arrow-left {
+    right: 100px;
+  }
+  .arrow-right {
+    right: 60px;
+  }
+  .arrow {
+    top: 102px;
+  }
+  .description {
+    font-size: 22px;
+  }
+  #description {
+    margin-left: 0;
+  }
+  .form {
+    gap: 100px;
+  }
+  .form-text {
+    font-size: 18px;
+  }
+  .input {
+    height: 35px;
+    width: 150px;
+    font-size: 14px;
+  }
+  .input-message {
+    width: 385px;
+    height: 80px;
+    font-size: 14px;
+
+  }
+  .talk {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .shipping {
+    gap: 110px;
+  }
+  footer > div:first-of-type > div:first-of-type > img {
+    width: 80px;
+    height: 55px;
+    margin-right: 20px;
+  }
+  footer > div:first-of-type > div:first-of-type {
+    font-size: 18px;
+    width: 500px;
+  }
+  .weight {
+   font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 500px;
+  }
+  .header-content {
+    padding-top: 50px;
+    display: block;
+  }
+  .cushion {
+    max-width: 100%;
+    width: 100vw;
+    left: 0;
+    object-fit: cover;
+  }
+  .buynow-rect {
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    right: 0;
+    top: -300px;
+    margin: 0 auto;
+    padding-top: 1px;
+  }
+  .new {
+    margin-top: 45px;
+  }
+  .new, .buy {
+    font-size: 14px;
+  }
+  .heading {
+    font-size: 24px;
+    margin: 5px 0 5px;
+    line-height: 35px;
+  }
+  .arrow {
+    top: -190px;
+  }
+  .beginnings {
+    flex-direction: column-reverse;
+  }
+  .career {
+    flex-direction: column;
+  }
+  .description-text {
+    width: 320px;
+  }
+  .form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form > div:first-of-type {
+    padding-top: 30px;
+  }
+  .form > div:last-of-type {
+    padding: 3px 20px 30px ;
+  }
+  .newsletter {
+    margin-bottom: 10px;
+  }
+  .newsletter > div:last-of-type > div {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .newsletter > div:last-of-type > div:last-of-type {
+    font-size: 18px;
+  }
+  .shipping {
+    gap: 50px;
+  }
+  .shipping img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 24px;
+  }
+  .shipping > div > div:first-of-type {
+    font-size: 18px;
+  }
+  .shipping > div > div:last-of-type {
+    font-size: 14px;
+  }
+  footer {
+    padding: 30px 20px 30px 20px;
+  }
+  footer > div:first-of-type {
+    flex-direction: column;
+    align-items: start;
+  }
+  .socials {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 25px 20px;
+  }
+  .logo {
+    width: 55px;
+    height: 35px;
+  }
+  .tabs {
+    width: 250px;
+  }
+  .active-state {
+    width: 40px;
+    left: -4px;
+  }
+  .home-tab,
+  .about-tab,
+  .product-tab,
+  .contact-tab {
+    font-size: 14px;
+  }
+  .cart {
+    width: 18px;
+    height: 18px;
+  }
+  .badge {
+    width: 12px;
+    height: 12px;
+    font-size: 10px;
+    padding-top: 0;
+    top: -6px;
+    right: -6px;
+  }
+  .dropdown {
+    width: 300px;
+    height: 200px;
+    right: 10px;
+  }
+  .triangle {
+    right: 15px;
+  }
+  .product-desc div:first-of-type {
+    font-size: 14px;
+  }
+  .text-container {
+    padding: 0 15px 0;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .button {
+    width: 150px;
+    height: 45px;
+  }
+  .links img {
+    width: 300px;
+    height: 250px;
+  }
+  .link {
+    width: 300px;
+    height: 120px;
+  }
+  .description-img {
+    width: 330px;
+    height: 250px;
+  }
+  .description-img > img {
+    width: 310px;
+    height: 230px;
+  }
+  .card-list img {
+    width: 300px;
+    height: 330px;
+  }
+  .input {
+    height: 35px;
+    width: 110px;
+    font-size: 14px;
+  }
+  .input-message {
+    width: 310px;
+    height: 80px;
+    font-size: 14px;
+
+  }
+  .newsletter > div:last-of-type > div {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .newsletter > div:last-of-type > div:last-of-type {
+    font-size: 14px;
+  }
+  .shipping {
+    flex-direction: column;
+  }
+  .shipping img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+  }
+  .shipping > div > div:first-of-type {
+    font-size: 20px;
+  }
+  .shipping > div > div:last-of-type {
+    font-size: 16px;
+  }
+  footer > div:first-of-type > div:first-of-type {
+    width: 100%;
+    font-size: 14px;
+  }
+  footer > div:first-of-type > div:first-of-type img {
+    width: 55px;
+    height: 35px;
+    margin-right: 0px;
+  }
+}
+
