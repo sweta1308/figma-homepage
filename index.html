@@ -11,11 +11,11 @@
   <body>
     <div class="product-detail">
       <div class="top">
-        <div>Product Details</div>
+        <div class="modal-head">Product Details</div>
         <img src="/assets/Cross.svg" alt="cross" class="cross" />
       </div>
       <div class="product">
-        <div>
+        <div class="modal-product-img">
           <img
             src="/product-detail-assets/pink-cushion.png"
             alt="pink"
@@ -42,12 +42,12 @@
           <button class="cart-button">Add to Cart</button>
         </div>
 
-        <div>
+        <div class="modal-product">
           <div class="product-name">Pink Cushion</div>
           <div class="product-price">$ 19.99 USD</div>
           <div class="product-description">
-            <span>Description<br /></span
-            ><span
+            <span class="product-header">Description<br /></span
+            ><span class="product-content"
               >Credibly innovate granular internal or organic sources whereas
               high standards in web-readiness. Energistically scale future-proof
               core competencies vis-a-vis impactful experiences. Dramatically
@@ -56,14 +56,14 @@
           </div>
           <div class="color">Choose Color</div>
           <div class="colors">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="blue-color"></div>
+            <div class="gray-color"></div>
+            <div class="black-color"></div>
+            <div class="green-color"></div>
+            <div class="pink-color"></div>
           </div>
           <div class="delivery-option">
-            <span>Delivery Options</span>
+            <span class="deliver-head">Delivery Options</span>
             <img src="/product-detail-assets/vehicle.svg" alt="vehicle" />
           </div>
           <div class="pincode">
@@ -154,115 +154,119 @@
         </div>
       </div>
 
-      <!-- Text -->
-      <div class="text-container">
-        <div class="text">I'm a cushion designer.</div>
-        <div class="description">
-          Based in San Francisco, California I design trendy and fashion
-          Cushions,<br />since I have memory I always had a tendency to design
-          and illustration.
+      <div class="content-container">
+        <!-- Text -->
+        <div class="text-container">
+          <div class="text">I'm a cushion designer.</div>
+          <div class="description">
+            Based in San Francisco, California I design trendy and fashion
+            Cushions,<br />since I have memory I always had a tendency to design
+            and illustration.
+          </div>
+          <button class="button">Learn More</button>
         </div>
-        <button class="button">Learn More</button>
-      </div>
 
-      <!-- Links -->
-      <div class="links">
-        <div class="link-one">
-          <img src="/assets/Girl.png" alt="girl" />
-          <div class="link">
-            <div>About Me</div>
-            <div>Learn More</div>
+        <!-- Links -->
+        <div class="links">
+          <div class="link-div">
+            <img src="/assets/Girl.png" alt="girl" />
+            <div class="link">
+              <div class="link-head">About Me</div>
+              <div class="learn">Learn More</div>
+            </div>
+          </div>
+          <div class="link-div">
+            <img src="/assets/Cushion.png" alt="cushion" />
+            <div class="link">
+              <div class="link-head">My Products</div>
+              <div class="learn">Learn More</div>
+            </div>
+          </div>
+          <div class="link-div">
+            <img src="/assets/Keyboard.png" alt="keyboard" />
+            <div class="link">
+              <div class="link-head">Contact Me</div>
+              <div class="learn">Learn More</div>
+            </div>
           </div>
         </div>
-        <div class="link-two">
-          <img src="/assets/Cushion.png" alt="cushion" />
-          <div class="link">
-            <div>My Products</div>
-            <div>Learn More</div>
-          </div>
-        </div>
-        <div class="link-three">
-          <img src="/assets/Keyboard.png" alt="keyboard" />
-          <div class="link">
-            <div>Contact Me</div>
-            <div>Learn More</div>
-          </div>
-        </div>
-      </div>
 
-      <!-- Beginnings -->
-      <div class="beginnings">
-        <div class="description-text">
-          <div>Beginnings</div>
-          <div>
-            Credibly innovate granular internal or organic sources whereas high
-            standards in web-readiness. Energistically scale future-proof core
-            competencies vis-a-vis impactful experiences.<br /><br />Dramatically
-            synthesize integrated schemas. with optimal networks.
+        <!-- Beginnings -->
+        <div class="beginnings">
+          <div class="description-text">
+            <div class="desc-header">Beginnings</div>
+            <div class="desc-description">
+              Credibly innovate granular internal or organic sources whereas
+              high standards in web-readiness. Energistically scale future-proof
+              core competencies vis-a-vis impactful experiences.<br /><br />Dramatically
+              synthesize integrated schemas. with optimal networks.
+            </div>
+          </div>
+          <div class="description-img">
+            <img
+              src="/assets/Beginnings Img.png"
+              alt="beginnings"
+              class="desc-img"
+            />
           </div>
         </div>
-        <div class="description-img">
-          <img src="/assets/Beginnings Img.png" alt="beginnings" />
-        </div>
-      </div>
 
-      <!-- Career -->
-      <div class="career">
-        <div class="description-img">
-          <img src="/assets/Carrer img.png" alt="career" />
-        </div>
-        <div class="description-text" id="description">
-          <div>Career</div>
-          <div>
-            Collaboratively administrate turnkey channels whereas virtual
-            e-tailers.<br /><br />Objectively seize scalable metrics whereas
-            proactive e-services seamlessly empower fully researched growth
-            strategies.<br /><br />And interoperable internal or “organic”
-            sources.<br /><br />
+        <!-- Career -->
+        <div class="career">
+          <div class="description-img">
+            <img src="/assets/Carrer img.png" alt="career" class="desc-img" />
           </div>
-          <button>Learn More</button>
+          <div class="description-text" id="description">
+            <div class="desc-header">Career</div>
+            <div class="desc-description">
+              Collaboratively administrate turnkey channels whereas virtual
+              e-tailers.<br /><br />Objectively seize scalable metrics whereas
+              proactive e-services seamlessly empower fully researched growth
+              strategies.<br /><br />And interoperable internal or “organic”
+              sources.<br /><br />
+            </div>
+            <button class="description-text-button">Learn More</button>
+          </div>
         </div>
-      </div>
 
-      <!-- Cards -->
-      <div class="cards">
+        <!-- Cards -->
         <div class="card-list">
-          <div data-id="1" class="plated">
-            <img src="/assets/Rectangle 10.png" alt="card-1" />
-            <div>Plated Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="1" class="card plated">
+            <img src="/assets/Rectangle 10.png" alt="card-1" class="card-img" />
+            <div class="card-name">Plated Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
-          <div data-id="2" class="silver">
-            <img src="/assets/Rectangle 12.png" alt="card-2" />
-            <div>Silver Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="2" class="card silver">
+            <img src="/assets/Rectangle 12.png" alt="card-2" class="card-img" />
+            <div class="card-name">Silver Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
-          <div data-id="3" class="deep-blue">
-            <img src="/assets/Rectangle 14.png" alt="card-3" />
-            <div>Deep Blue Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="3" class="card deep-blue">
+            <img src="/assets/Rectangle 14.png" alt="card-3" class="card-img" />
+            <div class="card-name">Deep Blue Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
-          <div data-id="4" class="pink">
-            <img src="/assets/Rectangle 15.png" alt="card-4" />
-            <div>Pink Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="4" class="card pink">
+            <img src="/assets/Rectangle 15.png" alt="card-4" class="card-img" />
+            <div class="card-name">Pink Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
-          <div data-id="5" class="black">
-            <img src="/assets/Rectangle 16.png" alt="card-5" />
-            <div>Black Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="5" class="card black">
+            <img src="/assets/Rectangle 16.png" alt="card-5" class="card-img" />
+            <div class="card-name">Black Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
-          <div data-id="6" class="green">
-            <img src="/assets/Rectangle 17.png" alt="card-6" />
-            <div>Green Cushion</div>
-            <div>$ 19.99 USD</div>
+          <div data-id="6" class="card green">
+            <img src="/assets/Rectangle 17.png" alt="card-6" class="card-img" />
+            <div class="card-name">Green Cushion</div>
+            <div class="card-price">$ 19.99 USD</div>
           </div>
         </div>
       </div>
 
       <!-- Form -->
       <div class="form">
-        <div>
+        <div class="site-details">
           <span class="form-text email">EMAIL<br /></span
           ><span class="form-text website">support@website.com<br /><br /></span
           ><span class="form-text phone">PHONE<br /></span
@@ -280,11 +284,11 @@
               possible.</span
             >
           </div>
-          <div>
+          <div class="inputs">
             <div class="input">your name</div>
             <div class="input">your company</div>
           </div>
-          <div>
+          <div class="inputs">
             <div class="input">your phone</div>
             <div class="input">your email</div>
           </div>
@@ -295,51 +299,57 @@
 
       <!-- Newsletter -->
       <div class="newsletter">
-        <div>Newsletter</div>
-        <div>Get promotions & updates!</div>
-        <div>
-          <div>Your name</div>
-          <div>Your email</div>
-          <div>SUBSCRIBE</div>
+        <div class="news-head">Newsletter</div>
+        <div class="news-desc">Get promotions & updates!</div>
+        <div class="boxes">
+          <div class="plain-box">Your name</div>
+          <div class="plain-box">Your email</div>
+          <div class="plain-box color-box">SUBSCRIBE</div>
         </div>
       </div>
 
       <!-- Shipping -->
       <div class="shipping">
-        <div>
+        <div class="shopping">
           <img src="/assets/shopping.svg" alt="shopping" />
-          <div>Safe shopping</div>
-          <div>Buy with confidence</div>
+          <div class="logo-header">Safe shopping</div>
+          <div class="logo-tag">Buy with confidence</div>
         </div>
-        <div>
+        <div class="shopping">
           <img src="/assets/shipping.svg" alt="shopping" />
-          <div>Fast shipping</div>
-          <div>Get your product fast</div>
+          <div class="logo-header">Fast shipping</div>
+          <div class="logo-tag">Get your product fast</div>
         </div>
-        <div>
-          <img src="/assets/satisfaction.svg" alt="shopping" />
-          <div>Satisfaction guarantee</div>
-          <div>Or get your money back</div>
+        <div class="shopping">
+          <img src="/assets/satisfaction.svg" alt="shopping" id="third-logo" />
+          <div class="logo-header">Satisfaction guarantee</div>
+          <div class="logo-tag">Or get your money back</div>
         </div>
       </div>
 
       <!-- Footer -->
       <footer>
-        <div>
-          <div>
-            <img src="/assets/logo-2.png" alt="logo" />
-            <div>Home</div>
-            <div>About Me</div>
-            <div>Products</div>
-            <div>Contact Me</div>
+        <div class="footer-links">
+          <div class="footer-texts">
+            <img src="/assets/logo-2.png" alt="logo" class="footer-logo" />
+            <div class="footer-link">Home</div>
+            <div class="footer-link">About Me</div>
+            <div class="footer-link">Products</div>
+            <div class="footer-link">Contact Me</div>
           </div>
           <div class="socials">
-            <img src="/assets/facebook.svg" alt="facebook" />
-            <img src="/assets/instagram.svg" alt="instagram" />
-            <img src="/assets/twitter.svg" alt="twitter" />
+            <div class="social">
+              <img src="/assets/facebook.svg" alt="facebook" />
+            </div>
+            <div class="social">
+              <img src="/assets/instagram.svg" alt="instagram" />
+            </div>
+            <div class="social">
+              <img src="/assets/twitter.svg" alt="twitter" />
+            </div>
           </div>
         </div>
-        <div>
+        <div class="footer-name">
           <div>
             <span class="weight six">Version 1.2</span
             ><span class="weight five"> | Image Licensing | Made By </span
