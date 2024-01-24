@@ -1,0 +1,391 @@
+/* Product Detail */
+.product-detail {
+  width: 1200px;
+  height: 910px;
+  background: white;
+  border-radius: 30px;
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 46.4px 43.55px 104.2px 68.16px;
+  display: none;
+  overflow: scroll;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.card-visible {
+  display: block;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top div {
+  color: black;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.top img {
+  width: 25.61px;
+  height: 25.61px;
+  cursor: pointer;
+}
+
+.product {
+  margin-top: 44.5px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#large-image {
+  width: 398.89px;
+  height: 424.77px;
+  margin-left: -10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.small-image {
+  margin-left: -80px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
+.cushion-image {
+  width: 101.9px;
+  height: 107.62px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cart-button {
+  width: 400px;
+  height: 79.52px;
+  background: #baa0b6;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-top: 40px;
+  margin-left: -12px;
+  cursor: pointer;
+}
+
+.product div:last-of-type {
+  position: relative;
+  left: 69.53px;
+}
+
+.product-name {
+  color: #615060;
+  font-size: 45px;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.product-price {
+  color: #707070;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-top: 15px;
+}
+
+.product-description {
+  width: 595.04px;
+  margin-top: 22.72px;
+}
+
+.product-description span:first-of-type {
+  color: black;
+  font-size: 25px;
+  font-family: Cormorant Garamond;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.product-description span:last-of-type {
+  color: black;
+  font-size: 25px;
+  font-family: Cormorant Garamond;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.color {
+  color: black;
+  font-size: 25px;
+  font-family: Cormorant Garamond;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-top: 10px;
+}
+
+.colors {
+  margin-top: 13.5px;
+  display: flex;
+}
+
+.colors div {
+  width: 32.2px;
+  height: 32.2px;
+  margin-right: 17.04px;
+}
+
+.colors div:first-of-type {
+  background-color: #0659a4;
+}
+
+.colors div:nth-child(2) {
+  background-color: #b3b5b4;
+}
+
+.colors div:nth-child(3) {
+  background-color: #6a6970;
+}
+
+.colors div:nth-child(4) {
+  background-color: #cd9f99;
+}
+
+.colors div:last-of-type {
+  background-color: #818467;
+  margin-left: -70px;
+}
+
+.delivery-option {
+  margin-top: 29.52px;
+  display: flex;
+  align-items: center;
+}
+
+.delivery-option span {
+  color: #615060;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.delivery-option img {
+  width: 30.47px;
+  height: 21.9px;
+  margin-left: 10.47px;
+}
+
+.pincode {
+  box-sizing: border-box;
+  width: 421.05px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8.57px;
+  background: white;
+  border: 1px #e1e1e1 solid;
+  margin-left: -70px;
+  padding-left: 17.14px;
+}
+
+.pincode div:first-of-type {
+  color: #dddddd;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.pincode div:last-of-type {
+  color: #d1d1d1;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-right: 85px;
+}
+
+.rating {
+  width: 333.33px;
+  height: 147.7px;
+  margin-top: 29.52px;
+}
+
+@media (max-width: 1200px) {
+  .product-detail {
+    width: 900px;
+    height: 700px;
+    padding: 46.4px 30.55px 104.2px 40.16px;
+  }
+
+  #large-image {
+    width: 350px;
+    height: 370px;
+  }
+
+  .small-image {
+    width: 350px;
+    margin-left: -50px;
+  }
+
+  .cushion-image {
+    width: 100px;
+    height: 102px;
+  }
+
+  .cart-button {
+    width: 350px;
+    height: 70px;
+  }
+
+  .product div:last-of-type {
+    left: 40px;
+  }
+
+  .product-name {
+    font-size: 36px;
+  }
+
+  .product-price {
+    font-size: 28px;
+  }
+
+  .product-description {
+    width: 450px;
+  }
+
+  .product-description span:last-of-type {
+    font-size: 18px;
+  }
+
+  .colors div:last-of-type {
+    margin-left: -40px;
+  }
+
+  .pincode {
+    margin-left: -40px;
+    height: 40px;
+  }
+
+  .pincode div:first-of-type {
+    font-size: 18px;
+  }
+
+  .pincode div:last-of-type {
+    font-size: 18px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .product-detail {
+    width: 550px;
+    height: auto;
+    margin-bottom: 0px;
+    padding: 46.4px 30.55px 34.2px 40.16px;
+  }
+
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-description {
+    width: 400px;
+  }
+
+  .product-name {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  .small-image {
+    margin-left: -10px;
+  }
+
+  .product div:last-of-type {
+    left: 0px;
+  }
+
+  .pincode {
+    margin-left: 0px;
+  }
+
+  .colors div:last-of-type {
+    margin-left: 0px;
+  }
+
+  .pincode div:last-of-type {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-detail {
+    width: 340px;
+    padding: 46.4px 30.55px 14.2px 40.16px;
+  }
+
+  .product-description {
+    width: 250px;
+  }
+
+  #large-image {
+    width: 300px;
+    height: 320px;
+  }
+
+  .small-image {
+    width: 300px;
+    margin-left: -20px;
+  }
+
+  .cushion-image {
+    width: 70px;
+    height: 80px;
+  }
+
+  .cart-button {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .colors div:last-of-type {
+    margin-left: -10px;
+  }
+
+  .product div:last-of-type {
+    left: 10px;
+  }
+
+  .pincode {
+    width: 290px;
+    margin-left: -20px;
+  }
+
+  .pincode div:last-of-type {
+    margin-right: 35px;
+  }
+
+  .rating {
+    width: 300px;
+    height: 120px;
+    margin-top: 29.52px;
+  }
+}
