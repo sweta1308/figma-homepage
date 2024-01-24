@@ -1,4 +1,16 @@
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
+  body {
+    font-size: 15px;
+  }
+  .socials {
+    width: 15%;
+  }
+  .description-img {
+    height: 350px;
+  }
+  .desc-description {
+    font-size: 18px;
+  }
   .header {
     height: 650px;
   }
@@ -13,9 +25,10 @@
   .buynow-rect {
     width: 270px;
     height: 270px;
-    right: 55px
+    right: 55px;
   }
-  .new, .buy {
+  .new,
+  .buy {
     font-size: 16px;
   }
   .heading {
@@ -26,124 +39,98 @@
   .arrow {
     top: 92px;
   }
-  .beginnings, .career {
-    gap: 20px;
-  }
-  .description-text {
-    width: 300px;
-  }
-  .description-img {
-    width: 500px;
-    height: 300px;
-  }
-  .description-img > img {
-    width: 470px;
-    height: 270px;
-  }
-  .description-text div:last-of-type {
-    font-size: 18px;
-  }
-  .form {
-    gap: 150px;
-  }
-  .input {
-    width: 218px;
-    height: 50px;
-  }
-  .input-message {
-    width: 520px;
-  }
-  footer {
-    padding: 30px 50px 30px 50px;
-  }
 }
 
-@media (max-width: 1050px) {
-  .navbar {
-    height: 80px;
-    padding: 25px 55px;
+@media (max-width: 900px) {
+  body {
+    font-size: 14px;
   }
-  .logo {
-    width: 70px;
-    height: 40px;
+  footer {
+    padding: 30px 4%;
   }
-  .tabs {
-    width: 400px;
+  .footer-logo {
+    width: 15%;
   }
-  .active-state {
-    top: 37px;
-    width: 80px;
+  .footer-texts {
+    width: 70%;
+    font-size: 16px;
   }
-  .home-tab,
-  .about-tab,
-  .product-tab,
-  .contact-tab {
+  .socials {
+    width: 20%;
+  }
+  .social {
+    width: 30px;
+    height: 30px;
+  }
+  .weight {
+    font-size: 14px;
+  }
+  .arrow-up {
+    right: 10px;
+    width: 40px;
+    height: 30px;
+  }
+  .shipping {
+    padding: 4%;
+  }
+  .logo-header {
     font-size: 18px;
   }
-  .dropdown::before {
-    right: 15px;
+  .logo-tag {
+    font-size: 14px;
   }
-  .arrow-left,
-  .arrow-right {
-    width: 41px;
-    height: 35px;
+  img[alt="shopping"] {
+    width: 35%;
+    margin-bottom: 18px;
   }
-  .arrow-left {
-    right: 100px;
+  .newsletter {
+    margin-bottom: 10px;
   }
-  .arrow-right {
-    right: 60px;
+  .plain-box {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
   }
-  .arrow {
-    top: 102px;
-  }
-  .description {
-    font-size: 22px;
-  }
-  #description {
-    margin-left: 0;
+  .color-box {
+    font-size: 18px;
   }
   .form {
-    gap: 100px;
+    padding: 8% 4%;
   }
   .form-text {
     font-size: 18px;
   }
-  .input {
-    height: 35px;
+  .user-info {
+    width: 70%;
+  }
+  .content-container {
+    padding: 8% 5%;
+  }
+  .card-name {
+    font-size: 16px;
+  }
+  .card-price {
+    font-size: 14px;
+  }
+  .description-text-button {
     width: 150px;
-    font-size: 14px;
+    height: 50px;
   }
-  .input-message {
-    width: 385px;
+  .link {
     height: 80px;
-    font-size: 14px;
-
+    padding-left: 10px;
+    padding-top: 8px;
   }
-  .talk {
-    width: 130px;
-    height: 40px;
-    font-size: 14px;
-    margin-top: 30px;
-  }
-  .shipping {
-    gap: 110px;
-  }
-  footer > div:first-of-type > div:first-of-type > img {
-    width: 80px;
-    height: 55px;
-    margin-right: 20px;
-  }
-  footer > div:first-of-type > div:first-of-type {
+  .link-head {
     font-size: 18px;
-    width: 500px;
+    line-height: 20px;
   }
-  .weight {
-   font-size: 16px;
+  .learn {
+    font-size: 16px;
   }
-}
-
-@media (max-width: 767px) {
+  .description {
+    font-size: 18px;
+  }
   .header {
     height: 500px;
   }
@@ -169,7 +156,8 @@
   .new {
     margin-top: 45px;
   }
-  .new, .buy {
+  .new,
+  .buy {
     font-size: 14px;
   }
   .heading {
@@ -178,7 +166,82 @@
     line-height: 35px;
   }
   .arrow {
-    top: -190px;
+    top: -200px;
+  }
+  .navbar {
+    height: 80px;
+    padding: 25px 55px;
+  }
+  .logo {
+    width: 70px;
+    height: 40px;
+  }
+  .tabs {
+    width: 400px;
+  }
+  .active-state {
+    top: 37px;
+    width: 80px;
+  }
+  .home-tab,
+  .about-tab,
+  .product-tab,
+  .contact-tab {
+    font-size: 18px;
+  }
+  .dropdown::before {
+    right: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 30px 2%;
+  }
+  .social {
+    width: 25px;
+    height: 25px;
+  }
+  .footer-texts {
+    font-size: 14px;
+    width: 75%;
+  }
+  .weight {
+    font-size: 12px;
+  }
+  img[alt="shopping"] {
+    width: 25%;
+  }
+  .logo-header {
+    font-size: 16px;
+  }
+  .logo-tag {
+    font-size: 12px;
+  }
+  .plain-box {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .color-box {
+    font-size: 14px;
+  }
+  .form {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .user-info {
+    width: 100%;
+  }
+  .talk {
+    width: 50%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
   }
   .beginnings {
     flex-direction: column-reverse;
@@ -187,57 +250,29 @@
     flex-direction: column;
   }
   .description-text {
-    width: 320px;
+    margin-top: 20px;
+    width: 100%;
   }
-  .form {
+  .description-img {
+    width: 100%;
+    height: 250px;
+  }
+  .links {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
-  .form > div:first-of-type {
-    padding-top: 30px;
+  .link-div {
+    width: 100%;
   }
-  .form > div:last-of-type {
-    padding: 3px 20px 30px ;
+  .link {
+    height: 100px;
+    padding-left: 20px;
   }
-  .newsletter {
-    margin-bottom: 10px;
+  .link-head {
+    padding-top: 20px;
+    font-size: 24px;
   }
-  .newsletter > div:last-of-type > div {
-    width: 150px;
-    height: 50px;
-    font-size: 18px;
-  }
-  .newsletter > div:last-of-type > div:last-of-type {
-    font-size: 18px;
-  }
-  .shipping {
-    gap: 50px;
-  }
-  .shipping img {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 24px;
-  }
-  .shipping > div > div:first-of-type {
-    font-size: 18px;
-  }
-  .shipping > div > div:last-of-type {
-    font-size: 14px;
-  }
-  footer {
-    padding: 30px 20px 30px 20px;
-  }
-  footer > div:first-of-type {
-    flex-direction: column;
-    align-items: start;
-  }
-  .socials {
-    align-self: flex-end;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 576px) {
   .navbar {
     padding: 25px 20px;
   }
@@ -283,77 +318,25 @@
   .product-desc div:first-of-type {
     font-size: 14px;
   }
-  .text-container {
-    padding: 0 15px 0;
-  }
-  .description {
-    font-size: 18px;
-  }
-  .button {
-    width: 150px;
-    height: 45px;
-  }
-  .links img {
-    width: 300px;
-    height: 250px;
-  }
-  .link {
-    width: 300px;
-    height: 120px;
-  }
-  .description-img {
-    width: 330px;
-    height: 250px;
-  }
-  .description-img > img {
-    width: 310px;
-    height: 230px;
-  }
-  .card-list img {
-    width: 300px;
-    height: 330px;
-  }
-  .input {
-    height: 35px;
-    width: 110px;
-    font-size: 14px;
-  }
-  .input-message {
-    width: 310px;
-    height: 80px;
-    font-size: 14px;
-
-  }
-  .newsletter > div:last-of-type > div {
-    width: 100px;
-    height: 40px;
-    font-size: 14px;
-  }
-  .newsletter > div:last-of-type > div:last-of-type {
-    font-size: 14px;
-  }
-  .shipping {
-    flex-direction: column;
-  }
-  .shipping img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 24px;
-  }
-  .shipping > div > div:first-of-type {
-    font-size: 20px;
-  }
-  .shipping > div > div:last-of-type {
-    font-size: 16px;
-  }
-  footer > div:first-of-type > div:first-of-type {
-    width: 100%;
-    font-size: 14px;
-  }
-  footer > div:first-of-type > div:first-of-type img {
-    width: 55px;
-    height: 35px;
-    margin-right: 0px;
-  }
 }
 
+@media (max-width: 476px) {
+  .shipping {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10% 4%;
+  }
+  .shopping {
+    width: 100%;
+  }
+  img[alt="shopping"] {
+    width: 40%;
+  }
+  .logo-header {
+    font-size: 24px;
+  }
+  .logo-tag {
+    font-size: 18px;
+  }
+}
