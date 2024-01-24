@@ -80,8 +80,8 @@
   .contact-tab {
     font-size: 18px;
   }
-  .triangle {
-    right: 60px;
+  .dropdown::before {
+    right: 15px;
   }
   .arrow-left,
   .arrow-right {
@@ -275,8 +275,10 @@
     height: 200px;
     right: 10px;
   }
-  .triangle {
-    right: 15px;
+  .dropdown::before {
+    right: 5px;
+    border-width: 10px;
+    top: -20px;
   }
   .product-desc div:first-of-type {
     font-size: 14px;
