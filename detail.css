@@ -1,18 +1,17 @@
 /* Product Detail */
 .product-detail {
-  width: 1200px;
-  height: 910px;
+  width: 90%;
+  height: 95vh;
   background: white;
   border-radius: 30px;
   position: sticky;
   top: 10px;
   z-index: 1000;
   box-sizing: border-box;
-  padding: 46.4px 43.55px 104.2px 68.16px;
+  padding: 3% 6% 5%;
   display: none;
   overflow: scroll;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .card-visible {
@@ -24,7 +23,7 @@
   justify-content: space-between;
 }
 
-.top div {
+.modal-head {
   color: black;
   font-size: 30px;
   font-family: Roboto;
@@ -32,7 +31,7 @@
   word-wrap: break-word;
 }
 
-.top img {
+.cross {
   width: 25.61px;
   height: 25.61px;
   cursor: pointer;
@@ -41,32 +40,37 @@
 .product {
   margin-top: 44.5px;
   display: flex;
-  margin-bottom: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-product-img {
+  width: 40%;
 }
 
 #large-image {
-  width: 398.89px;
-  height: 424.77px;
+  width: 100%;
+  height: 50%;
   margin-left: -10px;
   margin-bottom: 30px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .small-image {
-  margin-left: -80px;
+  margin-left: -10px;
   display: flex;
-  width: 400px;
+  width: 100%;
   justify-content: space-between;
 }
 
 .cushion-image {
-  width: 101.9px;
-  height: 107.62px;
+  width: 30%;
+  height: 30%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .cart-button {
-  width: 400px;
+  width: 100%;
   height: 79.52px;
   background: #baa0b6;
   border: none;
@@ -80,14 +84,13 @@
   cursor: pointer;
 }
 
-.product div:last-of-type {
-  position: relative;
-  left: 69.53px;
+.modal-product {
+  width: 55%;
 }
 
 .product-name {
   color: #615060;
-  font-size: 45px;
+  font-size: 36px;
   font-family: Cormorant Garamond;
   font-weight: 700;
   word-wrap: break-word;
@@ -95,7 +98,7 @@
 
 .product-price {
   color: #707070;
-  font-size: 30px;
+  font-size: 24px;
   font-family: Roboto;
   font-weight: 500;
   word-wrap: break-word;
@@ -103,11 +106,11 @@
 }
 
 .product-description {
-  width: 595.04px;
+  width: 90%;
   margin-top: 22.72px;
 }
 
-.product-description span:first-of-type {
+.product-header {
   color: black;
   font-size: 25px;
   font-family: Cormorant Garamond;
@@ -115,9 +118,9 @@
   word-wrap: break-word;
 }
 
-.product-description span:last-of-type {
+.product-content {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Cormorant Garamond;
   font-weight: 400;
   word-wrap: break-word;
@@ -137,31 +140,34 @@
   display: flex;
 }
 
-.colors div {
+.blue-color,
+.gray-color,
+.black-color,
+.green-color,
+.pink-color {
   width: 32.2px;
   height: 32.2px;
   margin-right: 17.04px;
 }
 
-.colors div:first-of-type {
+.blue-color {
   background-color: #0659a4;
 }
 
-.colors div:nth-child(2) {
+.gray-color {
   background-color: #b3b5b4;
 }
 
-.colors div:nth-child(3) {
+.black-color {
   background-color: #6a6970;
 }
 
-.colors div:nth-child(4) {
+.pink-color {
   background-color: #cd9f99;
 }
 
-.colors div:last-of-type {
+.green-color {
   background-color: #818467;
-  margin-left: -70px;
 }
 
 .delivery-option {
@@ -170,7 +176,7 @@
   align-items: center;
 }
 
-.delivery-option span {
+.deliver-head {
   color: #615060;
   font-size: 20px;
   font-family: Roboto;
@@ -178,7 +184,7 @@
   word-wrap: break-word;
 }
 
-.delivery-option img {
+img[alt="vehicle"] {
   width: 30.47px;
   height: 21.9px;
   margin-left: 10.47px;
@@ -186,7 +192,7 @@
 
 .pincode {
   box-sizing: border-box;
-  width: 421.05px;
+  width: 60%;
   height: 60px;
   display: flex;
   align-items: center;
@@ -194,7 +200,6 @@
   margin-top: 8.57px;
   background: white;
   border: 1px #e1e1e1 solid;
-  margin-left: -70px;
   padding-left: 17.14px;
 }
 
@@ -212,87 +217,33 @@
   font-family: Roboto;
   font-weight: 500;
   word-wrap: break-word;
-  margin-right: 85px;
+  margin-right: 10px;
 }
 
 .rating {
-  width: 333.33px;
+  width: 55%;
   height: 147.7px;
   margin-top: 29.52px;
 }
 
-@media (max-width: 1200px) {
-  .product-detail {
-    width: 900px;
-    height: 700px;
-    padding: 46.4px 30.55px 104.2px 40.16px;
-  }
-
+@media (max-width: 900px) {
   #large-image {
-    width: 350px;
-    height: 370px;
-  }
-
-  .small-image {
-    width: 350px;
-    margin-left: -50px;
-  }
-
-  .cushion-image {
-    width: 100px;
-    height: 102px;
-  }
-
-  .cart-button {
-    width: 350px;
-    height: 70px;
-  }
-
-  .product div:last-of-type {
-    left: 40px;
-  }
-
-  .product-name {
-    font-size: 36px;
-  }
-
-  .product-price {
-    font-size: 28px;
+    height: 35%;
   }
 
   .product-description {
-    width: 450px;
+    width: 100%;
   }
 
-  .product-description span:last-of-type {
+  .cart-button {
     font-size: 18px;
-  }
-
-  .colors div:last-of-type {
-    margin-left: -40px;
-  }
-
-  .pincode {
-    margin-left: -40px;
     height: 40px;
-  }
-
-  .pincode div:first-of-type {
-    font-size: 18px;
-  }
-
-  .pincode div:last-of-type {
-    font-size: 18px;
-    margin-right: 50px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .product-detail {
-    width: 550px;
-    height: auto;
-    margin-bottom: 0px;
-    padding: 46.4px 30.55px 34.2px 40.16px;
+    padding: 5% 6%;
   }
 
   .product {
@@ -300,92 +251,21 @@
     align-items: center;
   }
 
-  .product-description {
-    width: 400px;
+  .modal-product {
+    width: 100%;
+    margin-top: 25px;
   }
 
-  .product-name {
-    font-size: 28px;
-    margin-top: 20px;
-  }
-
-  .product-price {
-    font-size: 18px;
-  }
-
-  .small-image {
-    margin-left: -10px;
-  }
-
-  .product div:last-of-type {
-    left: 0px;
+  .modal-product-img {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .pincode {
-    margin-left: 0px;
-  }
-
-  .colors div:last-of-type {
-    margin-left: 0px;
-  }
-
-  .pincode div:last-of-type {
-    font-size: 18px;
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .product-detail {
-    width: 340px;
-    padding: 46.4px 30.55px 14.2px 40.16px;
-  }
-
-  .product-description {
-    width: 250px;
-  }
-
-  #large-image {
-    width: 300px;
-    height: 320px;
-  }
-
-  .small-image {
-    width: 300px;
-    margin-left: -20px;
-  }
-
-  .cushion-image {
-    width: 70px;
-    height: 80px;
-  }
-
-  .cart-button {
-    width: 300px;
-    height: 40px;
-    font-size: 18px;
-  }
-
-  .colors div:last-of-type {
-    margin-left: -10px;
-  }
-
-  .product div:last-of-type {
-    left: 10px;
-  }
-
-  .pincode {
-    width: 290px;
-    margin-left: -20px;
-  }
-
-  .pincode div:last-of-type {
-    margin-right: 35px;
+    width: 100%;
   }
 
   .rating {
-    width: 300px;
-    height: 120px;
-    margin-top: 29.52px;
+    width: 100%;
   }
 }
