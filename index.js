@@ -49,6 +49,8 @@ const handleBodyClick = (e) => {
   }
 };
 
+const handleDropdownClick = (e) => e.stopPropagation()
+
 const handleCardClick = (e) => {
   mainContainer.style.overflow = "hidden";
   const selectedCushion = e.srcElement.parentElement.innerText.split(" ")[0];
@@ -77,7 +79,7 @@ const handleArrowClick = () => {
 
 cart.addEventListener("click", () => handleCartClick());
 window.addEventListener("click", (e) => handleBodyClick(e));
+dropdown.addEventListener('click', (e) => handleDropdownClick(e));
 cards.addEventListener("click", (e) => handleCardClick(e));
 cross.addEventListener("click", () => handleCrossClick());
 arrowUp.addEventListener("click", () => handleArrowClick());
-
